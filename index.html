@@ -1,230 +1,355 @@
-<!DOCTYPE html>
-<html lang="en">
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Project</title>
+  <meta name="keywords" content="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.">
+  <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.">
 
-  <head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Landing Page - Start Bootstrap Theme</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom fonts for this template -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-
-    <!-- Custom styles for this template -->
-    <link href="css/landing-page.min.css" rel="stylesheet">
-
-  </head>
-
-  <body>
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-light bg-light static-top">
-      <div class="container">
-        <a class="navbar-brand" href="#">Start Bootstrap</a>
-        <a class="btn btn-primary" href="#">Sign In</a>
+  <link rel="stylesheet" href="assets/fonts/flat-icon/flaticon.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div id="content-wrapper">
+  <header class="header header--bg">
+    <div class="container">
+      <nav class="navbar">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" aria-expanded="true">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span> 
+          </button>
+          
+        </div>
+        <div class="navbar-collapse collapse in" id="myNavbar" aria-expanded="true" style="">
+          <ul class="nav navbar-nav">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">SKILL</a></li> 
+            <li><a href="#">PORTFOLIO</a></li> 
+            <li></li> 
+             
+            <li><a href="#">CONTACT</a></li> 
+          </ul>
+        </div>
+      </nav>
+      <div class="header__content text-center">
+        <span class="header__content__block">안녕하세요</span>
+        <h1 class="header__content__title">개발자 조인수입니다.</h1>
+        <ul class="header__content__sub-title">
+          <li>개발<span class="padding">-</span></li>
+          <li>보안<span class="padding">-</span></li>
+          <li>기타</li>
+        </ul>
+        <a class="header__button" href="mailto:cisxcc@gmail.com">Send Mail</a>
       </div>
-    </nav>
+      <div class="social-icon pull-right">
+        <ul>
+          <li><a href="#"><i class="flaticon-facebook-letter-logo"></i></a></li>
+          <li><a href="#"><i class="flaticon-twitter-logo"></i></a></li>
+          <li><a href="#"><i class="flaticon-behance-logo"></i></a></li>
+          <li><a href="#"><i class="flaticon-dribbble-logo"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
 
-    <!-- Masthead -->
-    <header class="masthead text-white text-center">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-9 mx-auto">
-            <h1 class="mb-5">Build a landing page for your business or project and generate more leads!</h1>
-          </div>
-          <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-            <form>
-              <div class="form-row">
-                <div class="col-12 col-md-9 mb-2 mb-md-0">
-                  <input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
+  <section class="about">
+    <div class="container about__container--narrow">
+      <div class="page-section">
+        <h2 class="page-section__title">ABOUT ME</h2>
+          <img class="page-section__title-style" src="assets/images/title-style.png" alt="">
+          <p class="page-section__paragraph">정보보안에 관심이 많고 여러가지 경험을 하려고 노력하고 있습니다</p>
+          <div class="row gutters-80">
+            <div class="col-md-4">
+              <div class="about__image">
+                <img src="assets/images/about-me-image.jpg" alt="" style="max-width: 100%; height: auto;">
+              </div>
+            </div>
+            <div class="col-md-8 about__content">
+              
+              	<div class="about__description">
+              	<p>2016 ~ 2018년 정보보호병 근무</p>
+              	<p>2018년 전북대 해킹대회 1등</p>
+              	<p>2019년 Invisible Shield 동아리 회장</p>
+              	<p>2019년 호남정보보호 연구회 부회장</p>
+              </div>
+               
+              <div class="row row--margin-top">
+                <div class="col-md-4">
+                  <p class="about__bio"><strong>NAME :</strong>INSU CHO</p>
+                  <p class="about__bio"><strong>AGE :</strong>24</p>
                 </div>
-                <div class="col-12 col-md-3">
-                  <button type="submit" class="btn btn-block btn-lg btn-primary">Sign up!</button>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </header>
-
-    <!-- Icons Grid -->
-    <section class="features-icons bg-light text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-              <div class="features-icons-icon d-flex">
-                <i class="icon-screen-desktop m-auto text-primary"></i>
-              </div>
-              <h3>Fully Responsive</h3>
-              <p class="lead mb-0">This theme will look great on any device, no matter the size!</p>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-              <div class="features-icons-icon d-flex">
-                <i class="icon-layers m-auto text-primary"></i>
-              </div>
-              <h3>Bootstrap 4 Ready</h3>
-              <p class="lead mb-0">Featuring the latest build of the new Bootstrap 4 framework!</p>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="features-icons-item mx-auto mb-0 mb-lg-3">
-              <div class="features-icons-icon d-flex">
-                <i class="icon-check m-auto text-primary"></i>
-              </div>
-              <h3>Easy to Use</h3>
-              <p class="lead mb-0">Ready to use with your own content, or customize the source files!</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Image Showcases -->
-    <section class="showcase">
-      <div class="container-fluid p-0">
-        <div class="row no-gutters">
-
-          <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-1.jpg');"></div>
-          <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-            <h2>Fully Responsive Design</h2>
-            <p class="lead mb-0">When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
-          </div>
-        </div>
-        <div class="row no-gutters">
-          <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/bg-showcase-2.jpg');"></div>
-          <div class="col-lg-6 my-auto showcase-text">
-            <h2>Updated For Bootstrap 4</h2>
-            <p class="lead mb-0">Newly improved, and full of great utility classes, Bootstrap 4 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 4!</p>
-          </div>
-        </div>
-        <div class="row no-gutters">
-          <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-3.jpg');"></div>
-          <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-            <h2>Easy to Use &amp; Customize</h2>
-            <p class="lead mb-0">Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Testimonials -->
-    <section class="testimonials text-center bg-light">
-      <div class="container">
-        <h2 class="mb-5">What people are saying...</h2>
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-              <img class="img-fluid rounded-circle mb-3" src="img/testimonials-1.jpg" alt="">
-              <h5>Margaret E.</h5>
-              <p class="font-weight-light mb-0">"This is fantastic! Thanks so much guys!"</p>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-              <img class="img-fluid rounded-circle mb-3" src="img/testimonials-2.jpg" alt="">
-              <h5>Fred S.</h5>
-              <p class="font-weight-light mb-0">"Bootstrap is amazing. I've been using it to create lots of super nice landing pages."</p>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-              <img class="img-fluid rounded-circle mb-3" src="img/testimonials-3.jpg" alt="">
-              <h5>Sarah	W.</h5>
-              <p class="font-weight-light mb-0">"Thanks so much for making these free resources available to us!"</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Call to Action -->
-    <section class="call-to-action text-white text-center">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-9 mx-auto">
-            <h2 class="mb-4">Ready to get started? Sign up now!</h2>
-          </div>
-          <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-            <form>
-              <div class="form-row">
-                <div class="col-12 col-md-9 mb-2 mb-md-0">
-                  <input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
-                </div>
-                <div class="col-12 col-md-3">
-                  <button type="submit" class="btn btn-block btn-lg btn-primary">Sign up!</button>
+                <div class="col-md-4">
+                  <p class="about__bio"><strong>JOB TITLE :</strong>Jeonbuk.Univ Student</p>
+                  <p class="about__bio"><strong>LOCATION :</strong>Jeonju-si</p>
                 </div>
               </div>
-            </form>
+              <div class="row">
+                
+                
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="skill skill--bg">
+    <div class="container skill__container--narrow">
+      <div class="page-section">
+        <h2 class="page-section__title page-section__title--white">MY SKILL</h2>
+        <img class="page-section__title-style" src="assets/images/title-style-white.png" alt="">
+        <p class="page-section__paragraph page-section__paragraph--white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        <div class="row gutters-60">
+          <div class="col-md-4">
+            <div class="thumbnail text-center">
+              <img src="assets/images/java.jpg" alt="">
+              <h4 class="skill__single-part__title">JAVA</h4>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width:70%;background-color: #7FB7FA;">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail text-center">
+              <img src="assets/images/python.jpg" alt="">
+              <h4 class="skill__single-part__title">PYTHON</h4>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width:60%;background-color: #FFAC1B;;">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail text-center">
+              <img src="assets/images/Csharp.png" alt="">
+              <h4 class="skill__single-part__title">C#</h4>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width:90%;background-color: #C99AFF;">
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Footer -->
-    <footer class="footer bg-light">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
-            <ul class="list-inline mb-2">
-              <li class="list-inline-item">
-                <a href="#">About</a>
-              </li>
-              <li class="list-inline-item">&sdot;</li>
-              <li class="list-inline-item">
-                <a href="#">Contact</a>
-              </li>
-              <li class="list-inline-item">&sdot;</li>
-              <li class="list-inline-item">
-                <a href="#">Terms of Use</a>
-              </li>
-              <li class="list-inline-item">&sdot;</li>
-              <li class="list-inline-item">
-                <a href="#">Privacy Policy</a>
-              </li>
-            </ul>
-            <p class="text-muted small mb-4 mb-lg-0">&copy; Your Website 2018. All Rights Reserved.</p>
+  <section class="service">
+    
+  </section>
+
+  <section class="portfolio" id="MixItUp3AF4EC">
+    <div class="container">
+      <div class="page-section">
+        <h2 class="page-section__title">MY PORTFOLIO</h2>
+        <img class="page-section__title-style" src="assets/images/title-style.png" alt="">
+        <p class="page-section__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        <div class="portfolio__button-group">
+          <a class="button button--default mixitup-control-active" data-filter="all" href="#">ALL</a>
+          <a class="button button--default" data-filter=".category-a" href="#">DEVELOPMENT</a>
+          <a class="button button--default" data-filter=".category-b" href="#">DESIGN</a>
+          <a class="button button--default" data-filter=".category-c" href="#">HTML</a>
+          <a class="button button--default" data-filter=".category-d" href="#">JAVA</a>
+        </div>
+        <div class="row gutters-40">
+          <div class="col-md-4" style="">
+            <div class="portfolio__single-section mix category-a category-b category-c" data-order="1" style="">
+              <img class="portfolio__single-section__image img-responsive" src="assets/images/portfolio-1.png" alt="">
+              <div class="portfolio__single-section__overlay">
+                <div class="overlay-content">
+                  <h4>LOGO DESIGN</h4>
+                  <p>Designer</p>
+                </div>
+                <div class="portfolio__single-section__search-icon">
+                  <a href="#"><img src="assets/images/search-icon.png" alt=""></a>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
-            <ul class="list-inline mb-0">
-              <li class="list-inline-item mr-3">
-                <a href="#">
-                  <i class="fa fa-facebook fa-2x fa-fw"></i>
-                </a>
-              </li>
-              <li class="list-inline-item mr-3">
-                <a href="#">
-                  <i class="fa fa-twitter fa-2x fa-fw"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-instagram fa-2x fa-fw"></i>
-                </a>
-              </li>
-            </ul>
+          <div class="col-md-4">
+            <div class="portfolio__single-section mix category-a category-c" data-order="2" style="">
+              <img class="portfolio__single-section__image img-responsive" src="assets/images/portfolio-2.png" alt="">
+              <div class="portfolio__single-section__overlay">
+                <div class="overlay-content">
+                  <h4>WEBSITE DESIGN</h4>
+                  <p>Designer</p>
+                </div>
+                <div class="portfolio__single-section__search-icon">
+                  <a href="#"><img src="assets/images/search-icon.png" alt=""></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="portfolio__single-section mix category-c" data-order="3" style="">
+              <img class="portfolio__single-section__image img-responsive" src="assets/images/portfolio-3.png" alt="">
+              <div class="portfolio__single-section__overlay">
+                <div class="overlay-content">
+                  <h4>LOGO DESIGN</h4>
+                  <p>Designer</p>
+                </div>
+                <div class="portfolio__single-section__search-icon">
+                  <a href="#"><img src="assets/images/search-icon.png" alt=""></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row gutters-40">
+          <div class="col-md-4">
+            <div class="portfolio__single-section mix category-b category-d" data-order="4" style="">
+              <img class="portfolio__single-section__image img-responsive" src="assets/images/portfolio-4.png" alt="">
+              <div class="portfolio__single-section__overlay">
+                <div class="overlay-content">
+                  <h4>PHOTOGRAPHY</h4>
+                  <p>photographer</p>
+                </div>
+                <div class="portfolio__single-section__search-icon">
+                  <a href="#"><img src="assets/images/search-icon.png" alt=""></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="portfolio__single-section mix category-b category-d" data-order="5" style="">
+              <img class="portfolio__single-section__image img-responsive" src="assets/images/portfolio-5.png" alt="">
+              <div class="portfolio__single-section__overlay">
+                <div class="overlay-content">
+                  <h4>WEBSITE DESIGN</h4>
+                  <p>Designer</p>
+                </div>
+                <div class="portfolio__single-section__search-icon">
+                  <a href="#"><img src="assets/images/search-icon.png" alt=""></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="portfolio__single-section mix category-d" data-order="6" style="">
+              <img class="portfolio__single-section__image img-responsive" src="assets/images/portfolio-6.png" alt="">
+              <div class="portfolio__single-section__overlay">
+                <div class="overlay-content">
+                  <h4>LOGO DESIGN</h4>
+                  <p>Designer</p>
+                </div>
+                <div class="portfolio__single-section__search-icon">
+                  <a href="#"><img src="assets/images/search-icon.png" alt=""></a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </footer>
+    </div>
+  </section><section class="overview overview--bg">
+    
+  </section>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  
 
-  </body>
+  <section class="slider slider--bg">
+    <div id="myCarousel" class="carousel container slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+        <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+        <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+      </ol>
 
-</html>
+      <div class="carousel-inner">
+        <div class="item">
+          <div class="carousel-content">
+            <div class="">
+              <div class="text-center">
+                <img src="assets/images/me.png" alt="">
+                <h4>Michael T. Hill</h4>
+                <h6>Designer</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, </p>
+                <div class="rating">
+                  <ul>
+                    <li><i class="material-icons">star</i></li>
+                    <li><i class="material-icons">star</i></li>
+                    <li><i class="material-icons">star</i></li>
+                    <li><i class="material-icons">star</i></li>
+                    <li><i class="material-icons">star</i></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="carousel-content">
+            <div class="">
+              <div class="text-center">
+                <img class="carousel-person-image" src="assets/images/team-2.png" alt="">
+                <h4>Leonard D. Downing</h4>
+                <h6>Photographer</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, </p>
+                <div class="rating">
+                  <ul>
+                    <li><i class="material-icons">star</i></li>
+                    <li><i class="material-icons">star</i></li>
+                    <li><i class="material-icons">star</i></li>
+                    <li><i class="material-icons">star</i></li>
+                    <li><i class="material-icons">star</i></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+      </div>
+    </div>
+  </section>
+
+  
+
+  
+
+  
+
+  <footer class="footer footer--bg">
+    <div class="container text-center">
+      <h1 class="footer__title">ISC</h1>
+      <ul class="footer__contact-information">
+        <li><a href="tel:"><i class="material-icons">phone</i> Hotline (+082) 010 67 89 21</a></li>
+        <li><a href="mailto:cisxcc@gmail.com"><i class="material-icons">email</i>cisxcc@gmail.com</a></li>
+        <li><a href="#"><i class="material-icons">location_on</i>전주시</a></li>
+      </ul>
+    </div>
+    <hr style="border: 0;border-top: 1px solid #525B60;display:block;margin-top: 40px;">
+    <div class="container text-center">
+      <div class="social-icon">
+        <ul>
+          <li><a href="#"><i class="flaticon-facebook-letter-logo"></i></a></li>
+          <li><a href="#"><i class="flaticon-twitter-logo"></i></a></li>
+          <li><a href="#"><i class="flaticon-behance-logo"></i></a></li>
+          <li><a href="#"><i class="flaticon-dribbble-logo"></i></a></li>
+        </ul>
+      </div>
+      <p class="footer__paragraph">Copyright © 2017 DartThemes , All Rights Reserved.</p>
+    </div>
+  </footer>
+</div>
+  <script src="assets/jquery/jquery-3.2.1.min.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="js/mixitup.js"></script>
+
+  <script>
+    $('a').click(function(e)
+      {
+        e.preventDefault();
+      });
+
+    // calling mixitup
+    var mixer = mixitup(".portfolio");
+  </script>
+
+  </body></html>
