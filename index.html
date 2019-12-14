@@ -25,17 +25,17 @@
                         <div class="navbar-collapse collapse in" id="myNavbar" aria-expanded="true" style="">
                             <ul class="nav navbar-nav">
                                 <li>
-                                    <a href="#header header--bg">HOME</a>
+                                    <a href="https://cisxc.github.io/">HOME</a>
                                 </li>
                                 <li>
-                                    <a href="#about">ABOUT</a>
+                                    <a href="#about" class="scroll">ABOUT</a>
                                 </li>
                                 <li>
-                                    <a href="#skill">SKILL</a>
+                                    <a href="#skill" class="scroll">SKILL</a>
                                 </li>
                                 <li></li>
                                 <li>
-                                    <a href="#footer">CONTACT</a>
+                                    <a href="#footer" class="scroll">CONTACT</a>
                                 </li>
                             </ul>
                         </div>
@@ -94,10 +94,10 @@
                                 </div>
                                 <div class="about__description">
                                     <h1>GitHub 이력</h1>
-                                     <p>
+                                    <p>
                                         <a href="https://github.com/cisxc/cisxc.github.io" target="_blank">
                                             [2019.11.15] GitHub 포트폴리오 홈페이지
-                                        </a> 
+                                        </a>
                                     </p>
                                     <p>
                                         <a href="https://github.com/facebook/fbctf/pulls" target="_blank">
@@ -107,19 +107,18 @@
                                     <p>
                                         <a href="https://github.com/cisxc/R_Naver_crawling" target="_blank">
                                             [2019.11.23] R 네이버 크롤링 및 분석 방법
-                                        </a>               
+                                        </a>
                                     </p>
                                     <p>
-                                         <a href="https://github.com/cisxc/R_Dcinside_crawling" target="_blank">
-                                            [2019.11.30] R DC인사이드 크롤링 및 분석 방법 
-                                        </a>  
+                                        <a href="https://github.com/cisxc/R_Dcinside_crawling" target="_blank">
+                                            [2019.11.30] R DC인사이드 크롤링 및 분석 방법
+                                        </a>
                                     </p>
                                     <p>
                                         <a href="https://github.com/cisxc/Dcinside_crawling2" target="_blank">
-                                            [2019.12.11] R DC인사이드 크롤링 심층 분석 및 연관어 분석 방법 
-                                        </a> 
+                                            [2019.12.11] R DC인사이드 크롤링 심층 분석 및 연관어 분석 방법
+                                        </a>
                                     </p>
-                                    
                                 </div>
                                 <div class="row row--margin-top">
                                     <div class="col-md-4">
@@ -227,7 +226,14 @@
         <script src="assets/bootstrap/js/bootstrap.min.js"></script>
         <script src="js/mixitup.js"></script>
         <script>
-
+            jQuery(document).ready(function ($) {
+                $(".scroll").click(function (event) {
+                    event.preventDefault();
+                    $('html,body').animate({
+                        scrollTop: $(this.hash).offset().top
+                    }, 500);
+                });
+            });
             // calling mixitup
             var mixer = mixitup(".portfolio");
         </script>
