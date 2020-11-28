@@ -74,7 +74,7 @@ html,body {
   height: 100%;
   margin: 0px;
   padding: 0px;
-  overflow-x: hidden; 
+  overflow-x: hidden;
 }
 
 .header--bg{
@@ -83,7 +83,7 @@ html,body {
   position: relative;
   z-index: 1;
 }
-
+/*
 .header--bg:after{
   content: '';
   position: absolute;
@@ -93,7 +93,7 @@ html,body {
   bottom: 0;
   background: -webkit-linear-gradient( 90deg, rgba(100,100,100, .9) 0%, rgba(127,86,253, .9) 100%);
   z-index: -1;
-}
+}*/
 
 .header__content{
   padding-top: 200px;
@@ -130,7 +130,7 @@ html,body {
   border-radius: 30px;
   display: inline-block;
   font-size: 15px;
-  color: #7f56fd;
+  color: #101010;
   font-family: Roboto-Light;
   font-weight: bold;
   margin-top: 30px;
@@ -530,7 +530,7 @@ html,body {
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 0;  
+  left: 0;
   height: 100%;
   width: 100%;
   opacity: 0;
@@ -690,7 +690,7 @@ html,body {
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 0;  
+  left: 0;
   height: 100%;
   width: 100%;
   opacity: 0;
